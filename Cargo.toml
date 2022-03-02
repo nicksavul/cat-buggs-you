@@ -1,0 +1,16 @@
+[package]
+name = "cat-2"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[build-dependencies]
+cat-2-packing = {path = "C:\\Users\\grass\\Desktop\\codes\\Rust\\cat-2-packing"}
+
+
+
+[dependencies]
+winapi = {version = "0.3.9", features = ["windowsx", "processthreadsapi", "objidlbase", "impl-default", "winuser", "wingdi", "minwindef", "windef", "libloaderapi", "basetsd", "impl-debug", "commctrl", "winnt", "guiddef", "combaseapi", "wincodec", "winerror"]}
+cat-2-packing = {path = "C:\\Users\\grass\\Desktop\\codes\\Rust\\cat-2-packing"}
+rand = "0.8.5"
